@@ -53,6 +53,7 @@ SUBMIT BUTTON
 
 .active_todo_container {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin-top: 20px;
   border-radius: 3px;
@@ -73,3 +74,73 @@ SUBMIT BUTTON
   font-size: 1.8rem;
   border-radius: 10px;
 }
+
+
+.completed  {
+  display: flex;
+  flex-direction: row;
+
+}
+ .active {
+
+  display: flex;
+  flex-direction: row;
+
+ }
+
+ .completed:hover ,.active:hover{
+  background-color: rgb(228, 228, 85);
+}
+
+.completed > p {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: line-through;
+}
+.completed_todo_container {
+  display: flex;
+
+}
+
+.active {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.active > p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.active-tasks-container > div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+.completed-tasks-container > div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+.delete-btn{
+  background-color: red;
+  color:white;
+  font-size: 1.8rem;
+  border-radius: 12px;
+  padding: 10px;
+  font-weight: 800;
+}
+
+.edit-btn{
+  background-color: rgb(161, 204, 97);
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 800;
+  border-radius: 12px;
+  padding: 10px;
+}
+

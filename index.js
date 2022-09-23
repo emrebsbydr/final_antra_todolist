@@ -48,7 +48,7 @@ const renderTodos = (posts, element) => {
     .join("");
 
   if (compArr.length > 0) {
-    let element = document.querySelector(".completed-todo-container");
+    let element = document.querySelector(".completed_todo_container");
     let test = compArr
       .map((post) => {
         return generateTodoItem(post);
