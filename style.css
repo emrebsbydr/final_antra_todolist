@@ -39,12 +39,7 @@ SUBMIT BUTTON
   font-weight: 800;
 }
 
-.input_form {
-  margin-right: 15px;
-  height:100%;
-  font-size: 1.8rem;
-  border-radius: 10px;
-}
+
 
 .main_tasks_container {
   text-align: center;
@@ -69,4 +64,12 @@ SUBMIT BUTTON
   margin-top: 20px;
   border-radius: 3px;
 
+}
+
+
+.input_form{
+  margin-right: 15px;
+  height:100%;
+  font-size: 1.8rem;
+  border-radius: 10px;
 }
